@@ -1,8 +1,16 @@
-.item-list-conteiner{
+.item-list-conteiner {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     align-items: center;
     flex-wrap: wrap;
+    padding: 40px;
+}
+
+nav a {
+    color: #fff !important;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
 }
